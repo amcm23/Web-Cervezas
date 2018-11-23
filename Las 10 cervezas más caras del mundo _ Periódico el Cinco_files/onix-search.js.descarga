@@ -1,0 +1,42 @@
+/**
+ * Created by igasi on 4/15/16.
+ */
+
+
+/* Script Onix Search Block.
+ ========================================================================= */
+
+/*==DRUPAL BEHAVIOR ==*/
+(function ( $, Drupal, drupalSettings) {
+    // Search logic.
+    // Search init behavior.
+    Drupal.behaviors.onixSearch = {
+        attach: function (context, settings) {
+            $(context).find("div.onix-search").once("div.onix-search")
+                .append('<form class="form-search"> ' +
+                    '<input class="search" type="text" name="onixsearch" placeholder="Buscar ...">' +
+                        '<input class="edit-submit" type="submit" value="Buscar">' +
+                    '</form>');
+
+              var basepath = $(context).find("div.onix-search").attr('basepath');
+              var getUrl = window.location;
+              var baseUrl = getUrl.protocol + "//" + getUrl.host;
+
+              $(".form-search", context).submit(function() {
+                window.location.replace(baseUrl + basepath + $(this).find("input[type='text']").val().replace(/[^a-zA-Z +\u00C0-\u017F]/g, ""));
+                return false;
+              });
+
+              //$('.form-search').on('submit',function(){
+              //    alert( $("form.form-search input[type='text']").val() );
+              //});
+
+            // aquí va el código para escuchar el enter del textfield, o el click del submit
+            // dentro se lee el value del input similar a la linea 24
+            // var tosearch = $(context).find("div.onix-search input:[name='onixsearch']").value;
+            // depues se concatena basepath + tosearch y se redirecciona hacia esta url.
+        }
+    };
+
+})( jQuery, Drupal, drupalSettings);
+/*== end behavior ==*/

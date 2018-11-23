@@ -1,0 +1,262 @@
+(function ($, Drupal) {
+  'use strict';
+
+  Drupal.behaviors.navigationBehaviors = {
+    attach: function (context, settings) {
+
+      /* Add menu section class to parent */
+      $(context)
+        .find('.menu-item > a')
+        .once('addMenuClassToParent')
+        .each(function () {
+          var section = $(this).attr('href').split('/').pop();
+          $(this).parent('li').addClass(section);
+        });
+
+      var menu_items = $(context).find('#block-mainnavigation').contents().clone();
+      var search_box = $(context).find('#block-onixsearchblock').contents().clone();
+
+      /* Add search button and menu toggle */
+      $(context)
+        .find('.region-header')
+        .once('addSearchAndMenuButton')
+        .append('<div class="search-button"></div>')
+        .append('<div class="menu-toggle"></div>');
+
+      /* Build Mobile Menu */
+      $(context)
+        .find('header')
+        .once('constructMobileMenuWrapper')
+        .append('<div class="mobile-expanded-menu"></div>');
+      $(context)
+        .find('.mobile-expanded-menu')
+        .once('hideMobileMenu')
+        .hide();
+      $(context)
+        .find('.mobile-expanded-menu')
+        .once('constructMobileMenu')
+        .append('<nav role="navigation" id="block-cinco-mobile-main-menu" class="block block-menu navigation menu--main-mobile"></nav>')
+        .append('<div class="search-module"></div>')
+        .append('<div class="print-module"></div>');
+      $(context)
+        .find('#block-cinco-mobile-main-menu')
+        .once('addMenuItemsToMobileMenu')
+        .append(menu_items);
+
+      /* Expandable sub-menu */
+      $(context)
+        .find('.mobile-expanded-menu li.menu-item--expanded')
+        .once('expandedMenus')
+        .each(function () {
+          var link = $(this).children('a');
+          link.append('<span class="expand-menu"></span>');
+        });
+      $(context)
+        .find('.mobile-expanded-menu span.expand-menu')
+        .once('addExpandedMenuListener')
+        .click(function (e) {
+          e.preventDefault();
+          $(this).closest('li').toggleClass('open');
+          $(this).closest('li').children('ul.menu').slideToggle();
+        });
+
+      /* Build Search Menu */
+      $(context)
+        .find('.search-module')
+        .once('buildMobileSearch')
+        .append(search_box);
+
+      /* Wire up events */
+      $(context)
+        .find('.menu-toggle')
+        .once('addMenuToggleListener')
+        .click(function () {
+          $(context).find('.mobile-expanded-menu')
+            .toggle();
+        });
+      $(context)
+        .find('.search-button')
+        .once('addSearchToggleListener')
+        .click(function () {
+          $(context).find('.block-onix-search')
+            .toggle();
+        });
+
+      /* Add hovers */
+      var menu_top_items = $(context).find('.menu--main > ul.menu > .menu-item');
+
+      $(context)
+        .find('.region-menu-hover .views-element-container.block-views')
+        .once('addMenuHovers')
+        .each(function (index) {
+          if ($(menu_top_items[index]).find('ul.menu').length === 0) {
+            $(menu_top_items[index]).append('<ul class="menu"></ul>');
+          }
+          $(menu_top_items[index]).find('ul.menu').append('<li class="menu-articles"></li>');
+          $(menu_top_items[index]).find('ul.menu li.menu-articles').append($(this));
+        });
+
+      /* Add archive to menu */
+      var menu_archive = $(context).find('.region-menu-archive .views-field-field-imagen-portada');
+
+      $(context)
+        .find('.print-module')
+        .once('addMenuArchive')
+        .append(menu_archive);
+
+      $(context)
+        .find('.print-module a')
+        .once('addMenuArchiveLink')
+        .prepend('<span>Impreso de Hoy</span>');
+
+      /* Add crown to articles */
+      $(context)
+        .find('body.path-node')
+        .once('articleCrown')
+        .find('header')
+        .before('<div class="article-crown"><div class="crown-wrapper"></div></div>');
+
+      var logo = $(context).find('#block-cinco-branding').contents().clone();
+
+      logo.find('img').attr('src', '/themes/cinco/images/logo-crown.svg');
+
+      $(context)
+        .find('.article-crown .crown-wrapper')
+        .append(logo)
+        .append('<div class="share-crown"></div>')
+        .append('<div class="menu-toggle-crown"></div>');
+
+      var crown = $(context).find('.article-crown');
+      var expanded_menu = $(context).find('.mobile-expanded-menu');
+
+      window.addEventListener('scroll', scrollBrain, false);
+
+      function scrollBrain() {
+        if (window.pageYOffset >= 90) {
+          $(expanded_menu).addClass('fixed');
+          $(crown).addClass('visible');
+        }
+        else if (crown.hasClass('visible')) {
+          $(context).find('.mobile-expanded-menu').hide();
+          $(expanded_menu).removeClass('fixed');
+          $(crown).removeClass('visible');
+        }
+      }
+
+      $(context)
+        .find('.menu-toggle-crown')
+        .once('addMenuToggleListener')
+        .click(function () {
+          $(context).find('.mobile-expanded-menu')
+            .toggle();
+        });
+
+      if (!window.sr) {
+        window.sr = ScrollReveal({
+          reset: true,
+          scale: 1,
+          opacity: 1,
+          viewFactor: 0.2,
+          duration: 200
+        });
+      }
+
+      window.sr.reveal('.node--type-article.node--view-mode-full', {
+        afterReveal: function (node) {
+          var node_url = $(node).find('.field--name-dynamic-token-fieldnode-content-url a').attr('href');
+          var node_title = $(node).find('.field--name-node-title h2').text();
+          var addthis_html =
+            '<div class="addthis_inline_share_toolbox" data-url="' +
+            node_url +
+            '" data-title="' +
+            node_title + '"></div>';
+          //console.log(node_url);
+          history.replaceState(null, null, node_url);
+          ga('create', 'UA-67037805-1', 'auto');
+          ga('send', 'pageview');
+
+
+          $('.share-crown').html('');
+          $('.share-crown').html(addthis_html);
+          if (typeof window.addthis.layers.refresh === "function") {
+            window.addthis.layers.refresh();
+          }
+        }
+      });
+    }
+  };
+
+  Drupal.behaviors.homeBehaviors = {
+    attach: function (context, settings) {
+
+      /* Grid Teaser wrapper */
+      $(context)
+        .find('.block-luxbox-home-blocks')
+        .once('gridTeaserWrapper')
+        .each(function () {
+          $(this).find('.node--type-article.node--view-mode-grid-teaser').wrapAll('<div class="grid-wrapper"></div>');
+        });
+
+      /* Opinion Teaser author image placement */
+      $(context)
+        .find('.node--type-article.node--view-mode-grid-opinion')
+        .once('opinionTeaserAuthor')
+        .each(function () {
+          $(this).find('.field--name-field-image').insertAfter($(this).find('.field--name-dynamic-token-fieldnode-link'));
+        });
+
+      /* Opinion and Los 5 T+ wrapper */
+      $(context)
+        .find('.block-views-blockopinion-block-1')
+        .add('.block-views-blockblock-topics-home-tags-home')
+        .once('opinionLosCincoTemas')
+        .wrapAll('<div class="opinion-topics-wrapper clearfix"></div>');
+    }
+  };
+
+  Drupal.behaviors.sectionBehaviors = {
+    attach: function (context, settings) {
+
+      /* Section Highlights wrapper */
+      $(context)
+        .find('.node--type-article.node--view-mode-section-high')
+        .once('sectionHighlightWrapper')
+        .wrapAll('<div class="section-high-wrapper"></div>');
+    }
+  };
+
+
+  Drupal.behaviors.articleBehaviors = {
+    attach: function (context, settings) {
+
+      /* Video title relocation */
+      $(context)
+        .find('.node--type-article.node--view-mode-full.highlight-video')
+        .once('videoTitleRelocation')
+        .each(function () {
+          var title = $(this).find('.article-header .fields-wrapper');
+          $(this).find('.author-date-wrapper').before(title);
+        });
+
+      /* Gallery title relocation */
+      $(context)
+        .find('.node--type-article.node--view-mode-full.highlight-gallery')
+        .once('galleryTitleRelocation')
+        .each(function () {
+          var title = $(this).find('.article-header .fields-wrapper');
+          $(this).prepend(title);
+        });
+    }
+  };
+
+  Drupal.behaviors.disable_element_menu = {
+    attach: function (context, settings) {
+      $('li.noticias a:first').css('cursor','default');
+      $('li.noticias a:first').click(function(e) {
+        e.preventDefault();
+        $(this).css('cursor','default');
+      });
+    }
+  };
+
+})(jQuery, Drupal);
