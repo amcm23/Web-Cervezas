@@ -1,0 +1,402 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"mar",
+				"margin-right\tproperty"
+			],
+			[
+				"icon",
+				"icon-up-open"
+			],
+			[
+				"tipo",
+				"tipo_ale"
+			],
+			[
+				"col",
+				"col-12"
+			],
+			[
+				"font",
+				"font"
+			],
+			[
+				"back",
+				"background-image\tproperty"
+			],
+			[
+				"bpr",
+				"border-top-color\tproperty"
+			],
+			[
+				"es",
+				"espacio"
+			],
+			[
+				"border",
+				"border-color\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bac",
+				"background-size\tproperty"
+			],
+			[
+				"max",
+				"max-width\tproperty"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"fon",
+				"font-style\tproperty"
+			],
+			[
+				"i",
+				"i\tTag"
+			],
+			[
+				"ma",
+				"maxlength\tAttr"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"a",
+				"align\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!doctype html>\n<html lang=\"es\">\n<head>\n\t<!-- Required meta tags -->\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n\t<!-- Bootstrap CSS -->\n\t<link rel=\"stylesheet\" href=\"css/bootstrapmodificado.css\" type=\"text/css\">\n\t<link rel=\"stylesheet\" href=\"css/micss.css\" type=\"text/css\">\n\t<!--<link rel=\"stylesheet\" type=\"text/css\" href=\"css/materializemod.css\">-->\n\n\t<title>Oro líquido</title>\n</head>\n<body class=\"fondo celta\">\n\t<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->\n\t<h5>\n\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-marron\">\n\t\t<a class=\"navbar-brand\" href=\"index.html\">\n\t\t\t<img src=\"imagen.jpg\" width=\"30\"   height=\"30\" alt=\"\">\n\t\t</a>\n\t\t<a class=\"navbar-brand\" href=\"index.html\">Oro Líquido</a>\n\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t<span class=\"navbar-toggler-icon\"></span>\n\t\t</button>\n\n\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t<ul class=\"navbar-nav mr-auto\">\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link\" href=\"index.html\">Inicio <span class=\"sr-only\">(current)</span></a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item dropdown active\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n\t\t\t\t\t\tCategorías\n\t\t\t\t\t</a>\n\t\t\t\t\t<div class=\"dropdown-menu active\" aria-labelledby=\"navbarDropdown\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/todas_las_categ.html\">Todas las Categorías</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/tipo_ale.html\">Tipo Ale</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/tipo_ale.html\">Tipo Lager</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/trigo.html\">De Trigo</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/porter.html\">Tipo Porter & Stout</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/lambic.html\">Tipo Lambic</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/otras.html\">Otras Especialidades</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link\" href=\"html/curiosidades.html\">Curiosidades</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link disabled\" href=\"html/encuesta.html\">Encuesta</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\t<audio id=\"mireproductor\" src=\"mi-archivo-de-audio.mp3\"></audio>\n\n\t\t\t<form class=\"form-inline my-2 my-lg-0\">\n\t\t\t\t<input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Buscar\" aria-label=\"Search\">\n\t\t\t\t<button class=\"btn btn-outline-success my-2 my-sm-0 \" type=\"submit\">Buscar</button>\n\t\t\t</form>\n\t\t</div>\n\t</nav>\n</h5>\n\t<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->\n\n\t<button onclick=\"topFunction()\" class=\"icon icon-up-open\" id=\"myBtn\" title=\"Go to top\"></button>\n\n\t<div class=\"espacio\">  </div>\n\t<!--AQUÍ COMIENZA EL CARRUSEL-->\n\t<div class=\"container bottomspace\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"offset-1 col-10\">\n\t\t\t\t<div  id=\"carouselFadeExampleIndicators\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\">\n\t\t\t\t\t<div class=\"carousel-inner\" role=\"listbox\">\n\t\t\t\t\t\t<div class=\"carousel-item active\" class=\"parallax\">\n\t\t\t\t\t\t\t<img class=\"d-block  carrusel\" src=\"images/cervezas.png\" data-src=\"images/imagen0.png\" alt=\"First slide\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t\t\t<img class=\"d-block carrusel\" src=\"images/brindis.jpg\" data-src=\"images/imagen0.png\" alt=\"Second slide\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a class=\"carousel-control-prev\" href=\"#carouselFadeExampleIndicators\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t\t<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"carousel-control-next\" href=\"#carouselFadeExampleIndicators\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t\t<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!--AQUÍ FINALIZA EL CARRUSEL-->\n\n\n\t\t<div class=\"offset-1 espacio\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-11 jumbotron jumbotron-fluid\">\n\t\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<h1 class=\"display-3\">Bienvenido a mi página</h1>\n\t\t\t\t\t\t<p class=\"lead\">Esta página es un proyecto para el curso 1º de Desarrollo de Aplicaciones Multiplataforma</p>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div> <!--cierra container-->\n\n\t<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->\n\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-marron\">\n\t\t<a href=\"\">aosdjasd</a>\n\t</nav>\n\t<!--fin sticky bottom-->\n\t<!-- Optional JavaScript -->\n\t<!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>\n\t<script src=\"js/bootstrap.js\"></script>\n\t<script src=\"js/js_mio.js\"></script>\n\n</body>\n</html> ",
+			"file": "index.html",
+			"file_size": 5553,
+			"file_write_time": 131871898440000000,
+			"settings":
+			{
+				"buffer_size": 5400,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"bran",
+				"git: branch"
+			],
+			[
+				"git ",
+				"Set Syntax: Git Attributes"
+			],
+			[
+				"branc",
+				"git: branch"
+			],
+			[
+				"bra",
+				"git: branch"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML"
+			],
+			[
+				"hml",
+				"Set Syntax: HTML"
+			],
+			[
+				"sy htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax html",
+				"Set Syntax: HTML"
+			],
+			[
+				"set syntax h",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/fonts",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js"
+	],
+	"file_history":
+	[
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/todas_las_categ.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/britanico.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipo_ale.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css/bootstrapmodificado.css",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/bootstrap.min.js",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/bootstrap.bundle.js",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/trigo.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/porter.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/otras.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lambic.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lager.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/encuesta.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/curiosidades.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/index.html",
+		"/D/Web Cervezas/index.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/js_mio.js",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css/micss.css",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/Index.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/fonts/fontello.css",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/todas_las_categ.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/Web Cervezas.sublime-project",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/todas_las.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web Cervezas/css/bootstrap - modificado.css",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web Cervezas/css/bootstrap-grid.min.css",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web Cervezas/css/bootstrap-grid.css",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web Cervezas/Index.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web Cervezas/Web Cervezas.sublime-project",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Ej.04.Formulario CV.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Ej.03.Tabla Ejemplo.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Ej.05.Currículum.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Ej.02.Su pedido.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Ej.1.Menú.html"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"LIST-GROUP-ITEM",
+			"LIST",
+			"index",
+			"bottom",
+			"navbar-brand",
+			"btn",
+			"button",
+			"sticky",
+			"next-icon",
+			"carousel",
+			"usado",
+			"carousel",
+			"líquido",
+			"search",
+			"carousel",
+			"light",
+			"navbar",
+			"navbar ",
+			"navbar",
+			"sticky",
+			"navbar-brand",
+			"></",
+			">\n",
+			"7"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5400,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								767,
+								766
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Git Formats/Git Attributes.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Web Cervezas.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

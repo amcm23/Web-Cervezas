@@ -1,0 +1,207 @@
+.bg-marron{
+	background-color: #8b4513 !important;
+}
+.espacio{
+	margin-top: 40px
+}
+.espder{
+    margin-left: 60px;
+}
+.carrusel{
+ max-height: 100%;
+ max-width: 100%;
+}
+.bg-negro{
+ background-color: #000000 !important;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("images/brindis");
+
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fondo{
+	background-image: url("../images/madera.png");
+	background-repeat: repeat;
+
+}
+.bottomspace{
+    margin-bottom: 30px;
+
+}
+.stickybottom{
+	bottom: 0;
+}
+
+@font-face {
+font-family: CelticHand;
+src: url("../fonts");
+}
+.celta{
+	font-family: CelticHand;
+}
+.fondofijo{
+    background-image: url(king_of_the_forest.jpg);
+    
+}
+
+.linea{ 
+    display: block;
+    border-color: black;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+} 
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    /*border: none; /* Remove borders */
+    border-color: white;
+    outline: none; /* Remove outline */
+    background-color: #8b4513; /*Set a background color */
+    background-image: "../images/top_icon.png";
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+.letra{
+	font-size: 20px;
+}
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/font/fontello.eot?22673740');
+  src: url('../fonts/font/fontello.eot?22673740#iefix') format('embedded-opentype'),
+       url('../fonts/font/fontello.woff2?22673740') format('woff2'),
+       url('../fonts/font/fontello.woff?22673740') format('woff'),
+       url('../fonts/font/fontello.ttf?22673740') format('truetype'),
+       url('../fonts/font/fontello.svg?22673740#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-up-open:before { content: '\e800'; } /* '' */
+
+.floatleft{
+    float: left;
+}
+.floatright{
+    float: right;
+}
+
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/font1/fontello.eot?52713948');
+  src: url('../fonts/font1/fontello.eot?52713948#iefix') format('embedded-opentype'),
+       url('../fonts/font1/fontello.woff2?52713948') format('woff2'),
+       url('../fonts/font1/fontello.woff?52713948') format('woff'),
+       url('../fonts/font1/fontello.ttf?52713948') format('truetype'),
+       url('../fonts/font1/fontello.svg?52713948#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?52713948#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-down-open:before { content: '\e801'; } /* '' */
+
+.esconder{
+    display: none;
+}

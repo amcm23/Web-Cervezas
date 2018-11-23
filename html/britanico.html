@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<title>Oro líquido</title>
+</head>
+<body class="fondo celta">
+	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
+	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
+	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
+	<div class="espacio">  </div>
+	
+	<div class=" espacio">
+		<div class="row">
+			<div class="d-none d-md-block col-2 offset-1 list-group">
+				<a href="todas_las_categ.html" class="list-group-item active">TODAS LAS CATEGORÍAS</a>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#ale">Tipo Ale</button>
+				<div id="ale"  class="collapse">
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Estilo Británico</a>
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Estilo Belga</a>
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Estilo Alemán</a>
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Otros Países</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lager">Tipo Lager</button>
+				<div id="lager"  class="collapse">
+					<a href="lager.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="lager.html" class="list-group-item list-group-item-action">Tipos de cervezas Lager</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#trigo">De trigo</button>
+				<div id="trigo"  class="collapse">
+					<a href="trigo.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="trigo.html" class="list-group-item list-group-item-action">Tipos de cervezas de Trigo</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#porter">Porter & Stout</button>
+				<div id="porter"  class="collapse">
+					<a href="porter.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="porter.html" class="list-group-item list-group-item-action">Tipos de cervezas P&S</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lambic">Tipo Lambic</button>
+				<div id="lambic"  class="collapse">
+					<a href="lambic.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="lambic.html" class="list-group-item list-group-item-action">Tipos de cervezas tipo Lambic</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#otras">Otras Especialidades</button>
+				<div id="otras"  class="collapse">
+					<a href="otras.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="otras.html" class="list-group-item list-group-item-action">Más información sobre otras especialidades</a>
+				</div>
+			</div>
+			<div class="offset-2 offset-md-1 offset-lg-0 col-8 jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="espacio offset-1 col-10 offset-1">
+						<h2 class="display-4">ESTILO BRITÁNICO</h2><hr class="linea">									   		   
+						<div class="celta letra">
+							<ul>
+								<br>
+								<h2 align="left" class="display-4 espacio">MILD</h2><hr class="linea">
+
+								<img class="espacio col-12" src="../images/mild.jpg">
+
+								<p class="espacio" align="justify"><i>Mild</i>, que significa <b>suave o ligero</b> en inglés, se refiere al carácter suave y poco amargo que tienen estas cervezas en contraposición al término bitter, amargo en inglés, que engloba a un grupo de cervezas más amargas.</p>
+
+								<p align="justify">Este tipo de cervezas se sirven <b>casi exclusivamente de barril</b> y es <i>difícil encontrarlas embotelladas</i>. Fue un estilo muy popular en Gran Bretaña. Hace 50 años, casi tres cuartas partes de la cerveza elaborada era de este estilo. A partir de él surgieron las populares versiones embotelladas del estilo, conocidas hoy en Gran Bretaña como brown ale. Sin embargo en las últimas décadas han perdido terreno en favor de otros estilos, aunque parece que en los últimos años han empezado a redescubrirse. En el resto del Reino Unido se producen cervezas parecidas, aunque se conocen con otros nombres. En el sur de Gales se les llama dark (oscura) y en Escocia light ale.</p>
+
+								<p align="justify">Son cervezas ligeras de cuerpo, suaves y un poco menos secas que las bitter. La mayoría son un poco oscuras y con un contenido alcohólico moderado, entre 3 y 4%.</p>
+
+
+
+								<h2 align="center espacio" class="display-4 espacio">BITTER</h2><hr class="linea">
+								<img class="espacio col-6" src="../images/bitter.png">
+
+
+								<p align="justify" class="espacio">El nombre bitter, amargo en inglés, se utiliza en oposición a las cervezas mild, siendo más amargas que éstas por las propiedades amargas del lúpulo. Su carácter es muy parecido al de las pale ale que describimos a continuación, confundiéndose a veces los dos términos, aunque normalmente las pale ale son embotelladas y las bitter de barril.</p>
+
+								<p align="justify">En general tienen un color más pálido que las mild y su contenido alcohólico es moderado, de 3.5 a 4% de alcohol, siendo sus características más definidas su amargor y su carácter seco.</p>
+
+								<p align="justify">Cada productor puede tener varios tipos de cerveza dentro de su gama de bitters, a la de menor densidad se le llamará “ordinary”o “basic”, a las siguientes, “special” o “best bitter” y a la de mayor densidad “extra special”.</p>
+
+								<p align="justify">Hoy en día es el principal estilo de ale que se bebe en Gran Bretaña y normalmente se sirve de barril. Es la típica cerveza que se encuentra en todos los pubs británicos.</p>
+
+
+
+								<h2 align="center espacio" class="display-4 espacio">PALE ALE</h2><hr class="linea">
+								<img class="espacio col-12" src="../images/pale.jpg">
+
+								<p align="justify" class="espacio">En el Reino Unido, hasta antes de la Revolución Industrial, la mayoría de las cervezas eran oscuras. Cuando se introdujo un estilo de cerveza más pálido, se le llamó pale ale. Aunque el término inglés pale ale signifique ale pálida, normalmente no son nada pálidas sino que tienen un color ámbar o bronce. El término se utilizó originariamente como oposición a las porter que eran marrón oscuro y negras muy populares en esa época.</p>
+
+								<p align="justify">Las pale ale son típicas de la zona de Burton-upon-Trent y Tadcaster en el centro y norte de Inglaterra, área que se caracteriza por tener un tipo de agua con un alto contenido en yeso que da un carácter especial a estas cervezas. Muchos productores de otros lugares añaden sales y minerales para “burtonizar” el agua, cuando quieren hacer sus cervezas al estilo de esa ciudad.</p>
+
+								<p align="justify">Tradicionalmente, el término “pale ale” se aplica a las cervezas de las carácterísticas de las “bitter” cuando están embotelladas, aunque normalmente tienen mayor calidad, son menos amargas y un poco mas densas. Su contenido alcohólico oscila entre un 4 y un 5%.</p>
+
+								<p align="justify">Existe un tipo especial de “pale ale” llamado “Indian Pale Ale (IPA)”. Su nombre viene de la cerveza que se enviaba en el pasado a los países del Imperio Británico, sobre todo a la India. Para que fermentara despacio durante el viaje se preparaban con más densidad; además para protegerla de posibles infecciones también tenía mucho lúpulo. La cerveza, que era transportada en barriles de madera, tenía que hacer un viaje muy largo en barco; salía de Inglaterra, con un clima frío, pasaba por el calor ecuatorial, luego atravesaba otra zona fría al pasar por el cabo de Buena Esperanza y luego otra vez calor al cruzar el Ecuador hasta la India. La cerveza estaba en constante movimiento por las olas durante los varios meses que duraba el viaje. Cuando llegaba a su destino, tenia un sabor especialmente fino y delicado, por lo que la fama de las IPA se extendió. Hoy se utiliza el término IPA para las pale ale más fuertes, con más carácter de lúpulo y de color pálido.</p>
+
+
+
+								*Brown Ale
+
+								Es una especialidad de los condados de Yorkshire y Durham en el nordeste de Inglaterra. Aparecieron en esta zona cuando empezó la moda en Gran Bretaña de las cervezas más pálidas que las porter, de las que hablamos más adelante; en la zona centro de Inglaterra surgieron las pale ale y en esta zona las brown ale.
+
+								El nombre viene de su color, ya que en inglés brown siginifica color castaño o marrón. En general son fuertes, con buen sabor a malta y con un color tostado que va de un ámbar suave a castaño fuerte; son afrutadas y secas. En otras partes de Inglaterra también se producen brown ales, pero suelen ser más oscuras, dulces y con menor contenido alcohólico. A veces se les llama mild si son de barril, como a las pale ale se les llama bitter si se sirven así.
+
+
+
+								*Old Ale
+
+								El grupo de las old ale incluye una serie de cervezas con distintas características. Todas suelen tener un color oscuro, mucho cuerpo y a veces son un poco dulces. Algunas tienen un gran contenido alcohólico, pero la mayoría oscilan entre un 5.5 y 8.5%. El termino old, viejo o antiguo en inglés, se refiere al método antiguo de hacer cerveza, no a su edad, aunque muchas de ellas se envejecen en barricas, en tanques de envejecimiento o en la propia botella antes de salir al mercado. En el Reino Unido la mayoría se sirven como cervezas de invierno y se etiquetan con el subtítulo de “winter warmer”.
+
+
+
+								*Barley Wine
+
+								El nombre barley wine, traducido al español como vino de cebada, es bastante reciente ya que a este tipo de cerveza se les solía conocer como strong ale o ale fuerte. El término empezó a utilizarse a finales del siglo XIX y se cree que procede de que puede alcanzar un contenido alcohólico parecido al del vino o también porque era tradicional envejecerla en barricas de madera durante varios meses, como el vino. Más que un estilo, representa una categoría. Normalmente es la denominación que utilizan los productores en el Reino Unido para describir a la la cerveza más fuerte de su gama. Suelen tener un contenido alcohólico de 6 a 12%, e incluso más, se envasan en botellas pequeñas de 18 cl. y habitualmente son oscuras y con mucho cuerpo.
+
+
+
+								*Scotch Ale
+
+								Las ale escocesas son normalmente ales fuertes, parecidas a las inglesas pero hechas con maltas escocesas. Suelen tener un color tostado o marrón oscuro. Menos amargas que las inglesas, tienen más cuerpo y son más adulzadas. Son muy populares en Bélgica y algunas de ellas se producen en Escocia sólo para exportar a ese país, mientras que otras se producen en ese estilo en Bélgica y se les conoce con el mismo nombre. Se cree que empezaron a elaborarse en Bélgica durante la Primera Guerra Mundial para los soldados británicos allí destinados y actualmente muchas cervezas de este estilo se utilizan como cervezas para la época de Navidad.
+
+								En Escocia las distintas cervezas de un productor pueden identificarse en orden ascendente de densidad y fuerza como “Light”, “Heavy”, “Export”, y “Strong”, o por un sistema basado en una antigua unidad de moneda en relación a unos impuestos como 60/, 70/, 80/ ó 90/.
+
+								Ale Irlandesa
+
+								Las ale irlandesas se caracterizan por su color rojizo, que es una tradición irlandesa, su afrutamiento y un definido carácter de malta. En este país apenas quedan productores de ale ya que las cervezas que más se beben son las oscuras porter y stout
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--fin container-->
+	<!--cierra container-->
+
+	<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+		<a href="">aosdjasd</a>
+	</nav>
+	<!--fin sticky bottom-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script type="../js/materialize.js"></script>
+	<script src="../js/js_mio.js"></script>
+</body>
+</html> 

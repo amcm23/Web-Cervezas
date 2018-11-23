@@ -1,0 +1,2 @@
+Sonar música irlandesa al entrar en la página(rreproductor)
+columna a la izquierda para moverse entre menús (Seguir haciendo y añadirlo al resto de categorías)
