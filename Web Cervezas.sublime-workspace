@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"sc",
+				"scotch_ale"
+			],
+			[
+				"bar",
+				"barley_wine"
+			],
+			[
+				"old",
+				"old_ale"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
 				"p",
 				"p\tTag"
 			],
@@ -88,13 +104,38 @@
 	"buffers":
 	[
 		{
-			"contents": "<!doctype html>\n<html lang=\"es\">\n<head>\n\t<!-- Required meta tags -->\n\t<meta charset=\"utf-8\">\n\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n\n\t<!-- Bootstrap CSS -->\n\t<link rel=\"stylesheet\" href=\"css/bootstrapmodificado.css\" type=\"text/css\">\n\t<link rel=\"stylesheet\" href=\"css/micss.css\" type=\"text/css\">\n\t<!--<link rel=\"stylesheet\" type=\"text/css\" href=\"css/materializemod.css\">-->\n\n\t<title>Oro líquido</title>\n</head>\n<body class=\"fondo celta\">\n\t<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->\n\t<h5>\n\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-marron\">\n\t\t<a class=\"navbar-brand\" href=\"index.html\">\n\t\t\t<img src=\"imagen.jpg\" width=\"30\"   height=\"30\" alt=\"\">\n\t\t</a>\n\t\t<a class=\"navbar-brand\" href=\"index.html\">Oro Líquido</a>\n\t\t<button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n\t\t\t<span class=\"navbar-toggler-icon\"></span>\n\t\t</button>\n\n\t\t<div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n\t\t\t<ul class=\"navbar-nav mr-auto\">\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link\" href=\"index.html\">Inicio <span class=\"sr-only\">(current)</span></a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item dropdown active\">\n\t\t\t\t\t<a class=\"nav-link dropdown-toggle\" href=\"#\" id=\"navbarDropdown\" role=\"button\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\">\n\t\t\t\t\t\tCategorías\n\t\t\t\t\t</a>\n\t\t\t\t\t<div class=\"dropdown-menu active\" aria-labelledby=\"navbarDropdown\">\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/todas_las_categ.html\">Todas las Categorías</a>\n\t\t\t\t\t\t<div class=\"dropdown-divider\"></div>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/tipo_ale.html\">Tipo Ale</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/tipo_ale.html\">Tipo Lager</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/trigo.html\">De Trigo</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/porter.html\">Tipo Porter & Stout</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/lambic.html\">Tipo Lambic</a>\n\t\t\t\t\t\t<a class=\"dropdown-item\" href=\"html/otras.html\">Otras Especialidades</a>\n\t\t\t\t\t</div>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link\" href=\"html/curiosidades.html\">Curiosidades</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"nav-item active\">\n\t\t\t\t\t<a class=\"nav-link disabled\" href=\"html/encuesta.html\">Encuesta</a>\n\t\t\t\t</li>\n\t\t\t</ul>\n\t\t\t<audio id=\"mireproductor\" src=\"mi-archivo-de-audio.mp3\"></audio>\n\n\t\t\t<form class=\"form-inline my-2 my-lg-0\">\n\t\t\t\t<input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Buscar\" aria-label=\"Search\">\n\t\t\t\t<button class=\"btn btn-outline-success my-2 my-sm-0 \" type=\"submit\">Buscar</button>\n\t\t\t</form>\n\t\t</div>\n\t</nav>\n</h5>\n\t<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->\n\n\t<button onclick=\"topFunction()\" class=\"icon icon-up-open\" id=\"myBtn\" title=\"Go to top\"></button>\n\n\t<div class=\"espacio\">  </div>\n\t<!--AQUÍ COMIENZA EL CARRUSEL-->\n\t<div class=\"container bottomspace\">\n\t\t<div class=\"row\">\n\t\t\t<div class=\"offset-1 col-10\">\n\t\t\t\t<div  id=\"carouselFadeExampleIndicators\" class=\"carousel slide carousel-fade\" data-ride=\"carousel\">\n\t\t\t\t\t<div class=\"carousel-inner\" role=\"listbox\">\n\t\t\t\t\t\t<div class=\"carousel-item active\" class=\"parallax\">\n\t\t\t\t\t\t\t<img class=\"d-block  carrusel\" src=\"images/cervezas.png\" data-src=\"images/imagen0.png\" alt=\"First slide\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t\t\t<img class=\"d-block carrusel\" src=\"images/brindis.jpg\" data-src=\"images/imagen0.png\" alt=\"Second slide\">\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<a class=\"carousel-control-prev\" href=\"#carouselFadeExampleIndicators\" role=\"button\" data-slide=\"prev\">\n\t\t\t\t\t\t<span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t<span class=\"sr-only\">Previous</span>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a class=\"carousel-control-next\" href=\"#carouselFadeExampleIndicators\" role=\"button\" data-slide=\"next\">\n\t\t\t\t\t\t<span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\n\t\t\t\t\t\t<span class=\"sr-only\">Next</span>\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\n\t\t<!--AQUÍ FINALIZA EL CARRUSEL-->\n\n\n\t\t<div class=\"offset-1 espacio\">\n\t\t\t<div class=\"row\">\n\t\t\t\t<div class=\"col-11 jumbotron jumbotron-fluid\">\n\t\t\t\t\t<div class=\"container\">\n\t\t\t\t\t\t<h1 class=\"display-3\">Bienvenido a mi página</h1>\n\t\t\t\t\t\t<p class=\"lead\">Esta página es un proyecto para el curso 1º de Desarrollo de Aplicaciones Multiplataforma</p>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br><br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t\t<br>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</div> <!--cierra container-->\n\n\t<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->\n\t<nav class=\"navbar navbar-expand-lg navbar-dark bg-marron\">\n\t\t<a href=\"\">aosdjasd</a>\n\t</nav>\n\t<!--fin sticky bottom-->\n\t<!-- Optional JavaScript -->\n\t<!-- jQuery first, then Popper.js, then Bootstrap JS -->\n\t<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>\n\t<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js\" integrity=\"sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49\" crossorigin=\"anonymous\"></script>\n\t<script src=\"js/bootstrap.js\"></script>\n\t<script src=\"js/js_mio.js\"></script>\n\n</body>\n</html> ",
 			"file": "index.html",
-			"file_size": 5553,
-			"file_write_time": 131871898440000000,
 			"settings":
 			{
-				"buffer_size": 5400,
+				"buffer_size": 5460,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/britanico.html",
+			"settings":
+			{
+				"buffer_size": 16985,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/belga.html",
+			"settings":
+			{
+				"buffer_size": 18126,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/todas_las_categ.html",
+			"settings":
+			{
+				"buffer_size": 8361,
+				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		}
@@ -110,6 +151,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"hml",
+				"Set Syntax: HTML"
+			],
+			[
+				"br",
+				"git: branch"
+			],
+			[
+				" att",
+				"git: ignore pattern"
+			],
+			[
+				"git",
+				"Set Syntax: Git Attributes"
+			],
 			[
 				"bran",
 				"git: branch"
@@ -140,10 +197,6 @@
 			],
 			[
 				"hmtl",
-				"Set Syntax: HTML"
-			],
-			[
-				"hml",
 				"Set Syntax: HTML"
 			],
 			[
@@ -191,20 +244,20 @@
 	],
 	"file_history":
 	[
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/todas_las_categ.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/britanico.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/curiosidades.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/encuesta.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lager.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lambic.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/otras.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/porter.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipo_ale.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/todas_las_categ.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/trigo.html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/index.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css/bootstrapmodificado.css",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/bootstrap.min.js",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/bootstrap.bundle.js",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/trigo.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/porter.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/otras.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lambic.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/lager.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/encuesta.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/curiosidades.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/index.html",
 		"/D/Web Cervezas/index.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js/js_mio.js",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css/micss.css",
@@ -226,7 +279,7 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 28.0
 	},
 	"find_in_files":
 	{
@@ -240,6 +293,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jpg",
 			">\n",
 			"LIST-GROUP-ITEM",
 			"LIST",
@@ -282,7 +336,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -291,27 +345,117 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5400,
+						"buffer_size": 5460,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								767,
-								766
+								456,
+								456
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Git Formats/Git Attributes.sublime-syntax",
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/britanico.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16985,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								16985
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6384.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "html/belga.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18126,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6226,
+								6226
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2280.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/todas_las_categ.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8361,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4011,
+								4011
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -319,11 +463,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 28.0
 	},
 	"input":
 	{
-		"height": 37.0
+		"height": 46.0
 	},
 	"layout":
 	{
@@ -356,7 +500,7 @@
 	"project": "Web Cervezas.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 52.0
 	},
 	"save_all_on_build": true,
 	"select_file":
