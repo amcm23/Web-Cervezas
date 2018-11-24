@@ -41,11 +41,21 @@
 }
 
 @font-face {
-font-family: CelticHand;
-src: url("../fonts");
+font-family: ch;
+src: url('../fonts/Blogger Sans-Light.ttf');
 }
+
+@font-face {
+  font-family: bs;
+  src: url('../fonts/Blogger Sans-Medium.ttf');
+}
+
+.blogger{
+  font-family: bs;
+}
+
 .celta{
-	font-family: CelticHand;
+	font-family: ch;
 }
 .fondofijo{
     background-image: url(king_of_the_forest.jpg);
