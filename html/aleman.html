@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/ekko-lightbox.css">
+	<link rel="shortcut icon" href="../imagen.jpg" /><title>Oro líquido</title>
+</head>
+<body class="fondo celta">
+	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
+	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
+	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
+	<div class="espacio">  </div>
+	
+	<div class=" espacio">
+		<div class="row">
+			<div class="d-none d-md-block col-2 offset-1 list-group">
+				<a href="todas_las_categ.html" class="list-group-item active">TODAS LAS CATEGORÍAS</a>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#ale">Tipo Ale</button>
+				<div id="ale"  class="collapse">
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="britanico.html" class="list-group-item list-group-item-action">Estilo Británico</a>
+					<a href="belga.html" class="list-group-item list-group-item-action">Estilo Belga</a>
+					<a href="aleman.html" class="list-group-item list-group-item-action">Estilo Alemán</a>
+					<a href="otros_paises.html" class="list-group-item list-group-item-action">Otros Países</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lager">Tipo Lager</button>
+				<div id="lager"  class="collapse">
+					<a href="lager.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lager.html" class="list-group-item list-group-item-action">Tipos de cervezas Lager</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#trigo">De trigo</button>
+				<div id="trigo"  class="collapse">
+					<a href="trigo.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_trigo.html" class="list-group-item list-group-item-action">Tipos de cervezas de Trigo</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#porter">Porter & Stout</button>
+				<div id="porter"  class="collapse">
+					<a href="porter.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_porter.html" class="list-group-item list-group-item-action">Tipos de cervezas P&S</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lambic">Tipo Lambic</button>
+				<div id="lambic"  class="collapse">
+					<a href="lambic.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lambic.html" class="list-group-item list-group-item-action">Tipos de cervezas tipo Lambic</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#otras">Otras Especialidades</button>
+				<div id="otras"  class="collapse">
+					<a href="otras.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="mas_otras.html" class="list-group-item list-group-item-action">Más información sobre otras especialidades</a>
+				</div>
+			</div>
+			<div class="offset-2 offset-md-1 offset-lg-0 col-8 jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="espacio offset-1 col-10 offset-1">
+						<h2 class="display-4 blogger" align="middle">ESTILO ALEMÁN</h2><hr class="linea">									   		   
+						<div class="celta letra">
+							<ul>
+								<br>
+								<h2 align="middle" class="display-4 espacio blogger">ALTBIER</h2><hr class="linea">
+								
+								<a href="../images/altbier.png" data-toggle="lightbox">
+									<img class="col-12" src="../images/altbier.png">
+								</a>
+
+								<p class="espacio" align="justify">La palabra alemana <i>"alt"</i> significa viejo y se refiere al estilo viejo o antiguo de fermentación alta. Estas cervezas fermentan en caliente, como las ale, aunque luego tienen un periodo de maduración en frío de varias semanas, como las lager.</p>
+
+								<p align="justify">Cuando a principios de siglo, en la Europa continental empezó a extenderse la nueva forma de fermentación baja originaria del sur de Alemania y Bohemia, en algunas ciudades conservaron la forma tradicional de hacer la cerveza, fermentándola en caliente, aunque adoptaron la maduración en frío. Esto ocurrió en el norte de Alemania, especialmente en Düsseldorf y otras ciudades cercanas.</p>
+
+								<p align="justify">Para la elaboración de estas cervezas a veces se utiliza una pequeña parte de trigo malteado. Se caracterizan por su color ámbar oscuro o bronce, debido al tipo de malta empleado. Son suaves, con un contenido alcohólico entre 4.5 y 5% y tienen un acabado muy limpio.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">KÖLSCH</h2><hr class="linea">
+								
+								<a href="../images/kolsch.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/kolsch.jpg">
+								</a>
+
+								<p class="espacio" align="justify">En la ciudad alemana de Colonia, Köln en alemán, ocurrió lo mismo que en Düsseldorf; despúes de que se extendiera por toda Alemania la elaboración de cerveza por fermentación baja, en la ciudad de Colonia siguieron utilizando el viejo estilo de fermentación alta, aunque también, como las alt, empezaron a utilizar la maduración en frío. Sin embargo y a diferencia de las alt, en Colonia, se empezaron a utilizar maltas más pálidas, siendo el resultado una cerveza dorada, similar en aspecto a las pilsen.</p>
+
+								<p>Por su fermentación en caliente son muy afrutadas, además son de color dorado pálido, delicadas y suaves. Tienen alrededor de un 5% de alcohol y a veces se utiliza un poco de trigo malteado en su elaboración.</p>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--fin container-->
+	<!--cierra container-->
+
+	<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+		<a href="">aosdjasd</a>
+	</nav>
+	<!--fin sticky bottom-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script type="../js/materialize.js"></script>
+	<script src="../js/js_mio.js"></script>
+	<script src="../js/ekko-lightbox.js"></script>
+	<script src="../js/ekko.js"></script>
+</body>
+</html> 
