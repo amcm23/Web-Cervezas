@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/ekko-lightbox.css">
+	<link rel="shortcut icon" href="../imagen.jpg" /><title>Oro líquido</title>
+</head>
+<body class="fondo celta">
+	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
+	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
+	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
+	<div class="espacio">  </div>
+	
+	<div class=" espacio">
+		<div class="row">
+			<div class="d-none d-md-block col-2 offset-1 list-group">
+				<a href="todas_las_categ.html" class="list-group-item active">TODAS LAS CATEGORÍAS</a>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#ale">Tipo Ale</button>
+				<div id="ale"  class="collapse">
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="britanico.html" class="list-group-item list-group-item-action">Estilo Británico</a>
+					<a href="belga.html" class="list-group-item list-group-item-action">Estilo Belga</a>
+					<a href="aleman.html" class="list-group-item list-group-item-action">Estilo Alemán</a>
+					<a href="otros_paises.html" class="list-group-item list-group-item-action">Otros Países</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lager">Tipo Lager</button>
+				<div id="lager"  class="collapse">
+					<a href="lager.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lager.html" class="list-group-item list-group-item-action">Tipos de cervezas Lager</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#trigo">De trigo</button>
+				<div id="trigo"  class="collapse">
+					<a href="trigo.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_trigo.html" class="list-group-item list-group-item-action">Tipos de cervezas de Trigo</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#porter">Porter & Stout</button>
+				<div id="porter"  class="collapse">
+					<a href="porter.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_porter.html" class="list-group-item list-group-item-action">Tipos de cervezas P&S</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lambic">Tipo Lambic</button>
+				<div id="lambic"  class="collapse">
+					<a href="lambic.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lambic.html" class="list-group-item list-group-item-action">Tipos de cervezas tipo Lambic</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#otras">Otras Especialidades</button>
+				<div id="otras"  class="collapse">
+					<a href="otras.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="mas_otras.html" class="list-group-item list-group-item-action">Más información sobre otras especialidades</a>
+				</div>
+			</div>
+			<div class="offset-2 offset-md-1 offset-lg-0 col-8 jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="espacio offset-1 col-10 offset-1">
+						<h2 class="display-4 blogger" align="middle">TIPOS DE CERVEZAS DE TRIGO</h2><hr class="linea">									   		   
+						<div class="celta letra">
+							<ul>
+								<br>
+								<h2 align="middle" class="display-4 espacio blogger">BERLINER WEISSE - BLANCAS DE BERLÍN</h2><hr class="linea">
+								
+								<a href="../images/weisse.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/weisse.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Proceden de la ciudad de Berlín, en Alemania. Para su elaboración se utiliza entre un 25 y 50% de trigo, siendo el resto cebada. En esta zona es tradicional maltear los dos cereales.</p>
+
+								<p align="justify">Son cervezas consideradas como las más refrescantes de toda la gama de las de trigo. Además, son muy pálidas, ligeras y con un contenido alcohólico bajo, alrededor del 3%, por lo que son ideales para calmar la sed.</p>
+
+								<p align="justify">En Berlín, suelen tomarse en verano o como aperitivo. Para moderar su acidez es tradicional en los bares añadir sirope de frutas o de hierbas.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">WEIZENBIER - DE TRIGO DEL SUR DE ALEMANIA</h2><hr class="linea">
+								
+								<a href="../images/weizenbier.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/weizenbier.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Quizás sean las cervezas de trigo más antiguas del mundo, ya que se tiene noticia de su elaboración desde hace más de 500 años. Como las cervezas de trigo de Berlín, también son ligeras, afrutadas y muy refrescantes. Se caracterizan además por su cabeza de espuma muy densa, cremosa y duradera. En su composición suele haber más trigo que en las de Berlín, entre un 40 y un 70% del grano empleado es trigo. Cumpliendo con la Ley de Pureza Alemana o Reinheitsgebot de 1516, tanto el trigo como la cebada se maltean. Normalmente tiene una segunda fermentación en botella y se suelen embotellar sin filtrar.</p>
+
+								<p align="justify">Se les conoce como weizenbier, cerveza de trigo, aunque a veces también se usa el término weissbier, cerveza blanca, por su apariencia. Si se embotella con sedimento, lleva el prefijo “hefe”, que es la palabra alemana de levadura y es muy apreciada entre los consumidores alemanes por su sabor. Si está filtrada, se le llama kristall weizen o kristall weissbier.</p>
+
+								<p align="justify">Son cervezas muy poco amargas y normalmente pálidas, aunque también existe una variedad de trigo oscura que se conoce como dunkel weizen, oscura de trigo.</p>
+
+								<p align="justify">En el sur de Alemania se sirven en vasos altos y alargados y tienen normalmente un contenido alcohólico de un 5%. Se pueden elaborar más fuertes, conociéndose entonces como weizenbock y se ofrecen como cervezas de trigo de invierno.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">WITBIER / BIÈRE BLANCHE - DE TRIGO BELGAS</h2><hr class="linea">
+								
+								<a href="../images/witbier.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/witbier.jpg">
+								</a>
+
+								<p class="espacio" align="justify">En Bélgica este estilo también estuvo a punto de desaparecer a mediados de este siglo. Por suerte, en los últimos años ha aumentado su popularidad, siendo bastantes los productores belgas que hoy cuentan con una cerveza de trigo en su gama.</p>
+
+								<p align="justify">Se elaboran utilizando entre un 30 y un 50% de trigo sin maltear, a diferencia de las de trigo alemanas que utilizan trigo malteado, el resto es cebada malteada y a veces también se le añaden pequeñas cantidades de avena. El hecho de que el trigo no esté malteado les da un mayor sabor a grano y hace que normalmente tengan más cuerpo.</p>
+
+								<p align="justify">Son de un color pálido amarillento y algo turbio. Se pueden aromatizan con piel de naranja Curaçao, cilantro y otras especias, y como las demás cervezas de trigo son muy apropiadas para el verano por su ligereza, acidez y carácter refrescante.</p>
+
+								<p align="justify">En Bélgica son conocidas como cervezas blancas, witbier en flamenco o bière blanche en francés, aunque unas pocas utilizan el nombre de cervezas de trigo, tarwebier o tarwebock , las más fuertes.</p>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--fin container-->
+	<!--cierra container-->
+
+	<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+		<a href="">aosdjasd</a>
+	</nav>
+	<!--fin sticky bottom-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script type="../js/materialize.js"></script>
+	<script src="../js/js_mio.js"></script>
+	<script src="../js/ekko-lightbox.js"></script>
+	<script src="../js/ekko.js"></script>
+</body>
+</html> 
