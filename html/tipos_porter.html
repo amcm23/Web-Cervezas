@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/ekko-lightbox.css">
+	<link rel="shortcut icon" href="../imagen.jpg" /><title>Oro líquido</title>
+</head>
+<body class="fondo celta">
+	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
+	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
+	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
+	<div class="espacio">  </div>
+	
+	<div class=" espacio">
+		<div class="row">
+			<div class="d-none d-md-block col-2 offset-1 list-group">
+				<a href="todas_las_categ.html" class="list-group-item active">TODAS LAS CATEGORÍAS</a>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#ale">Tipo Ale</button>
+				<div id="ale"  class="collapse">
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="britanico.html" class="list-group-item list-group-item-action">Estilo Británico</a>
+					<a href="belga.html" class="list-group-item list-group-item-action">Estilo Belga</a>
+					<a href="aleman.html" class="list-group-item list-group-item-action">Estilo Alemán</a>
+					<a href="otros_paises.html" class="list-group-item list-group-item-action">Otros Países</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lager">Tipo Lager</button>
+				<div id="lager"  class="collapse">
+					<a href="lager.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lager.html" class="list-group-item list-group-item-action">Tipos de cervezas Lager</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#trigo">De trigo</button>
+				<div id="trigo"  class="collapse">
+					<a href="trigo.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_trigo.html" class="list-group-item list-group-item-action">Tipos de cervezas de Trigo</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#porter">Porter & Stout</button>
+				<div id="porter"  class="collapse">
+					<a href="porter.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_porter.html" class="list-group-item list-group-item-action">Tipos de cervezas P&S</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lambic">Tipo Lambic</button>
+				<div id="lambic"  class="collapse">
+					<a href="lambic.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lambic.html" class="list-group-item list-group-item-action">Tipos de cervezas tipo Lambic</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#otras">Otras Especialidades</button>
+				<div id="otras"  class="collapse">
+					<a href="otras.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="mas_otras.html" class="list-group-item list-group-item-action">Más información sobre otras especialidades</a>
+				</div>
+			</div>
+			<div class="offset-2 offset-md-1 offset-lg-0 col-8 jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="espacio offset-1 col-10 offset-1">
+						<h2 class="display-4 blogger" align="middle">TIPOS DE CERVEZAS PORTER & STOUT</h2><hr class="linea">									   		   
+						<div class="celta letra">
+							<ul>
+								<br>
+								<h2 align="middle" class="display-4 espacio blogger">PORTER</h2><hr class="linea">
+								
+								<a href="../images/porter.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/porter.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Este estilo se introdujo durante la Revolución Industrial en Gran Bretaña para proporcionar a los trabajadores una bebida que fuera nutritiva y consistente, además de tener buen sabor. Se elaboró por primera vez en Londres, en 1722, y se cree que el nombre viene de los mozos de las estaciones de tren que repartían la cerveza. Si alguien quería una cerveza simplemente gritaba el nombre porter, que en inglés significa maletero o porteador.</p>
+
+								<p align="justify">En Gran Bretaña la porter es una cerveza de fermentación alta, muy oscura y con un sabor muy intenso. Su color, casi negro, se consigue utilizando malta muy tostada. Son secas y con un contenido alcohólico entre 4.5 y 5.5%. En Inglaterra pasaron por un periodo de declive llegando casi a desaparecer. Pero en los últimos años se han puesto de moda, al igual que en países como EE.UU., Alemania o Dinamarca, donde se elaboran por fermentación baja.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">STOUT SECA</h2><hr class="linea">
+								
+								<a href="../images/seca.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/seca.jpg">
+								</a>
+
+								<p class="espacio" align="justify">A medida que el estilo porter se elaboraba más fuerte, empezó a conocerse como “stout porter”; el término stout, que en inglés significa corpulento o sólido, se añadió para designar a las porter más fuertes y con más cuerpo. Según se hacían más fuertes se les conocía como “Extra stout porter” “Imperial stout” o “Double stout”. A mediados del siglo XIX la stout porter se había convertido en la bebida nacional irlandesa y algunos productores en Irlanda le quitaron la palabra porter, por lo que el nombre quedó sólo en stout.</p>
+
+								<p align="justify">Originalmente el término stout describía el cuerpo de éstas cervezas. Hoy en día sus características más destacadas son su color casi negro, su sabor tostado y su textura cremosa. Es un estilo tradicional de las ciudades irlandesas de Dublín y Cork, donde es costumbre tomarla con ostras, siendo la marca Guinness la que ha dado fama mundial al estilo.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">STOUT DULCE</h2><hr class="linea">
+								
+								<a href="../images/dulce.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/dulce.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Es una variante inglesa de las stout y normalmente tiene menos alcohol y densidad que las secas irlandesas. Son un poco dulces, suelen tener de 3 a 3.5% de alcohol y un color ámbar oscuro.</p>
+
+								<p align="justify">A muchas de ellas se le añaden azúcares lácteos (lactosa) por lo que eran conocidas como milk stout, stout de leche en español. Tienen fama de ser reparadoras y nutritivas por lo que a veces se añade harina de avena (oatmeal) denominándose entonces oatmeal stout. Durante el siglo XIX, en la Inglaterra victoriana, ésta cerveza se recomendaba a las mujeres que daban el pecho a los niños y a los atletas por sus propiedades nutritivas. En Gran Bretaña y en algunos países del Caribe donde también se elabora, se considera una bebida con propiedades energéticas.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">IMPERIAL STOUT</h2><hr class="linea">
+								
+								<a href="../images/imperial.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/imperial.jpg">
+								</a>
+
+								<p class="espacio" align="justify">En la corte imperial de los zares rusos, las porter y stout más fuertes hechas en Gran Bretaña para exportar, eran una bebida muy popular. Estas cervezas se hacían más fuertes que las porter normales, para que resistieran el viaje, eran muy oscuras y con mucho cuerpo. Han sobrevivido algunos ejemplos en Gran Bretaña, los países bálticos y Escandinavia. Tienen gran contenido alcohólico y en muchos sitios suele tomarse después de la cena con un café, en lugar de una copa de brandy.</p>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--fin container-->
+	<!--cierra container-->
+
+	<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+		<a href="">aosdjasd</a>
+	</nav>
+	<!--fin sticky bottom-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script type="../js/materialize.js"></script>
+	<script src="../js/js_mio.js"></script>
+	<script src="../js/ekko-lightbox.js"></script>
+	<script src="../js/ekko.js"></script>
+</body>
+</html> 

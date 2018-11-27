@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
+	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/ekko-lightbox.css">
+	<link rel="shortcut icon" href="../imagen.jpg" /><title>Oro líquido</title>
+</head>
+<body class="fondo celta">
+	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
+	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
+	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
+	<div class="espacio">  </div>
+	
+	<div class=" espacio">
+		<div class="row">
+			<div class="d-none d-md-block col-2 offset-1 list-group">
+				<a href="todas_las_categ.html" class="list-group-item active">TODAS LAS CATEGORÍAS</a>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#ale">Tipo Ale</button>
+				<div id="ale"  class="collapse">
+					<a href="tipo_ale.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="britanico.html" class="list-group-item list-group-item-action">Estilo Británico</a>
+					<a href="belga.html" class="list-group-item list-group-item-action">Estilo Belga</a>
+					<a href="aleman.html" class="list-group-item list-group-item-action">Estilo Alemán</a>
+					<a href="otros_paises.html" class="list-group-item list-group-item-action">Otros Países</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lager">Tipo Lager</button>
+				<div id="lager"  class="collapse">
+					<a href="lager.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lager.html" class="list-group-item list-group-item-action">Tipos de cervezas Lager</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#trigo">De trigo</button>
+				<div id="trigo"  class="collapse">
+					<a href="trigo.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_trigo.html" class="list-group-item list-group-item-action">Tipos de cervezas de Trigo</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#porter">Porter & Stout</button>
+				<div id="porter"  class="collapse">
+					<a href="porter.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_porter.html" class="list-group-item list-group-item-action">Tipos de cervezas P&S</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#lambic">Tipo Lambic</button>
+				<div id="lambic"  class="collapse">
+					<a href="lambic.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="tipos_lambic.html" class="list-group-item list-group-item-action">Tipos de cervezas tipo Lambic</a>
+				</div>
+				<button data-toggle="collapse" class="list-group-item list-group-item-action icon icon-down-open" data-target="#otras">Otras Especialidades</button>
+				<div id="otras"  class="collapse">
+					<a href="otras.html" class="list-group-item list-group-item-action">Descripción</a>
+					<a href="mas_otras.html" class="list-group-item list-group-item-action">Más información sobre otras especialidades</a>
+				</div>
+			</div>
+			<div class="offset-2 offset-md-1 offset-lg-0 col-8 jumbotron jumbotron-fluid">
+				<div class="container">
+					<div class="espacio offset-1 col-10 offset-1">
+						<h2 class="display-4 blogger" align="middle">TIPOS DE CERVEZAS LAMBIC</h2><hr class="linea">									   		   
+						<div class="celta letra">
+							<ul>
+								<br>
+								<a href="../images/lambic1.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/lambic1.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Es un estilo de cerveza que se elabora exclusivamente en Bélgica, siendo además uno de los más antiguos. Se tiene referencia de ella desde hace más de 400 años. Es un estilo originario del Valle del Zenne, en los alrededores de Bruselas. La versión más aceptada es que el nombre lambic deriva de la ciudad de Leembek, donde se elabora.</p>
+
+								<p align="justify">Este estilo incluye un grupo de cervezas de fermentación espontánea, que se hacen a partir de la lambic básica. Esta fermentación las convierte en unas de las cervezas más inusuales del mundo, ya que durante este proceso no se añade levadura, sino que se deja actuar a las levaduras salvajes del ambiente de la zona de donde proceden.</p>
+
+								<p align="justify">La lambic también es única en que el proceso de elaboración a veces dura varios años y para aromatizarla se utilizan distintas frutas, en vez de lúpulo. El lúpulo que se añade es viejo, cuando ya ha perdido todo su aroma y amargor pero aún conserva sus propiedades antisépticas naturales.</p>
+
+								<p align="justify">La mayoría de la cerveza lambic se utiliza para mezclar y refermentar añadiendo frutas y es dificil de conseguir tal cual, sin mezclar, fuera de su zona de origen.</p>
+
+								<p align="justify">La cerveza lambic base tiene entre un 30 y un 40% de trigo, siendo el resto del grano cebada. Mientra que la cebada se maltea ligeramente, el trigo se utiliza crudo. Si tiene menos de 6 meses de maduración, se conoce como lambic jóven, con más tiempo, se le llama vieja. Lo tradicional es un envejecimiento de 1 a 2 años. La cerveza básica resultante suele tener de un 4 a un 6% de alcohol, es muy seca y apenas tiene gas carbónico.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">GUEUZE</h2><hr class="linea">
+								
+								<a href="../images/gueuze.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/gueuze.jpg">
+								</a>
+
+								<p class="espacio" align="justify">Después de envejecida la lambic, ésta se trata de distintas formas para hacer diferentes cervezas. Para elaborar la gueuze se mezcla lambic envejecida con lambic joven y se embotella. Como en la lambic joven al no haber fermentado del todo, todavía queda un poco de azúcar, se produce una refermentación en la botella, que produce una carbonatación con burbujas y espuma, como en el cava o champagne. Por la presión, muchas veces se embotella en las mismas botellas que el champagne. La segunda fermentación también puede producirse en tanques y luego embotellarse.</p>
+
+								<p align="justify">Las gueuze son unas cervezas con mucho gas, con un poco más de alcohol que las lambic base, ácidas y más compleja por el envejecimiento posterior. Este es un estilo de cervezas que se puede guardar y mejora con el tiempo. En algunos cafés y restaurantes de Bruselas envejecen la cerveza durante dos o tres años más antes de servirla, por lo que desde que se inició su producción hasta que son consumidas pueden haber pasado seis o siete años.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">FARO</h2><hr class="linea">
+								
+								<a href="../images/faro.png" data-toggle="lightbox">
+									<img class="col-12" src="../images/faro.png">
+								</a>
+
+								<p class="espacio" align="justify">Es otra de las cervezas que se obtienen a partir de la lambic base. Faro es el nombre que tradicionalmene se da a la lambic cuando se añade azúcar. Como en el caso de las gueuze, se produce una refermentación, pero sin dejar que termine del todo este proceso. Así, queda azúcar en la cerveza. El resultado es una cerveza adulzada, con carárcter burbujeante.</p>
+
+								<p align="justify">Aunque este estilo fue muy popular en Bélgica durante el siglo XIX y se tomaba como cerveza de todos los días en los alrededores de Bruselas, hoy sólo unos pocos productores la elaboran.</p>
+
+								<h2 align="middle" class="display-4 espacio blogger">KRIEK, FRAMBOZEN - CERVEZAS DE FRUTAS</h2><hr class="linea">
+								
+								<a href="../images/kriek.jpg" data-toggle="lightbox">
+									<img class="col-12" src="../images/kriek.jpg">
+								</a>
+
+								<p class="espacio" align="justify">El añadir fruta a la cerveza es una tradición muy vieja en Bélgica. Se remonta a más de 400 años, siendo las cerezas y las frambuesas las frutas más utilizadas.</p>
+
+								<p align="justify">Al añadir cerezas (u otra fruta) a la cerveza lambic y dejarlas macerar en ella, ocurren tres cosas. En primer lugar, se produce una refermentación, debido a los azúcares de la fruta; además, el sabor de la propia fruta es absorbido por la cerveza y hay un gran cambio en el color de ésta, que pasa a ser rosado o rojizo. El periodo de maceración en las barricas suele ser de unas 6 semanas, aunque algunos productores dejan la fruta mucho más tiempo. A continuación se embotellan y se les deja madurar más tiempo.</p>
+
+								<p align="justify">Las tradicionales cervezas belgas de frutas están hechas con cerezas y se conocen como kriek, que es el nombre flamenco de una variedad de cerezas. También es tradicional utilizar frambuesas, recibiendo entonces el nombre de framboise o frambozen.</p>
+
+								<p align="justify">Pueden ser dulces o secas, siendo éstas últimas perfectas para tomar como aperitivo, mientras que las más dulces son un buen acompañamiento de postre.</p>
+
+								<p align="justify">Este tipo de cerveza, que es una bebida tradicional de verano en el area de Bruselas, a veces se conoce como el “champagne rosado” del mundo de la cerveza, por su color, delicadeza y burbujeo, sirviéndose en copas aflautadas, como el cava o champagne.</p>
+
+								<p align="justify">Suelen tener de 5 a un 7% de alcohol. Además de lambic, existen cervezas de frutas que utilizan como base otros estilos de cerveza, como gueuze o oud bruin belga.</p>
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--fin container-->
+	<!--cierra container-->
+
+	<!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+		<a href="">aosdjasd</a>
+	</nav>
+	<!--fin sticky bottom-->
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script type="../js/materialize.js"></script>
+	<script src="../js/js_mio.js"></script>
+	<script src="../js/ekko-lightbox.js"></script>
+	<script src="../js/ekko.js"></script>
+</body>
+</html> 
