@@ -1,6 +1,16 @@
 .bg-marron{
 	background-color: #8b4513 !important;
 }
+
+.letragrande{
+  font-size:30px; 
+}
+
+.borde{
+ border-style: dashed;
+    border-width: 5px;
+}
+
 .espacio{
 	margin-top: 40px
 }
