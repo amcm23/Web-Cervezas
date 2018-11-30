@@ -111,17 +111,43 @@
 			"file": "html/curiosidades.html",
 			"settings":
 			{
-				"buffer_size": 4576,
+				"buffer_size": 6905,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/mas_otras.html",
+			"file": "html/encuesta.html",
 			"settings":
 			{
-				"buffer_size": 10349,
+				"buffer_size": 6321,
 				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 5460,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/micss.css",
+			"settings":
+			{
+				"buffer_size": 5358,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "js/js_mio.js",
+			"settings":
+			{
+				"buffer_size": 622,
 				"line_ending": "Windows"
 			}
 		}
@@ -224,10 +250,12 @@
 	[
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html"
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html",
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/js"
 	],
 	"file_history":
 	[
+		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/mas_otras.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/css/micss.css",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/belga.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipo_ale.html",
@@ -235,7 +263,6 @@
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipos_porter.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipos_trigo.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/tipos_lambic.html",
-		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/mas_otras.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/index.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/britanico.html",
 		"/C/Users/Usuario/Desktop/1ºDAM/Web Cervezas/html/todas_las_categ.html",
@@ -268,7 +295,7 @@
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -325,7 +352,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -334,15 +361,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4576,
+						"buffer_size": 6905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3536,
-								3536
+								3006,
+								3086
 							]
 						],
 						"settings":
@@ -352,40 +379,130 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1083.0,
+						"translation.y": 1144.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "html/encuesta.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6321,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2986,
+								2986
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1577.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5460,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5363,
+								5363
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2565.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "html/mas_otras.html",
+					"buffer": 3,
+					"file": "css/micss.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10349,
+						"buffer_size": 5358,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7162,
-								7217
+								221,
+								221
 							]
 						],
 						"settings":
 						{
 							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2338.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/js_mio.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 622,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"git_savvy.repo_path": "C:\\Users\\Usuario\\Desktop\\1ºDAM\\Web Cervezas",
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
