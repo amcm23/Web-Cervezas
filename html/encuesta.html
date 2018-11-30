@@ -8,56 +8,135 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="../css/bootstrapmodificado.css" type="text/css">
 	<link rel="stylesheet" href="../css/micss.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="../css/ekko-lightbox.css">
 	<link rel="shortcut icon" href="../imagen.jpg" /><title>Oro líquido</title>
 </head>
 <body class="fondo celta">
 	<!-- AQUÍ COMIENZA LA BARRA DE NAVEGACIÓN-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
-		<a class="navbar-brand" href="../index.html">
-			<img src="../imagen.jpg" width="30"   height="30" alt="">
-		</a>
-		<a class="navbar-brand" href="../index.html">Oro Líquido</a>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
+	<h5>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+			<a class="navbar-brand" href="../index.html">
+				<img src="../imagen.jpg" width="30"   height="30" alt="">
+			</a>
+			<a class="navbar-brand" href="../index.html">Oro Líquido</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item dropdown active">
-					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						Categorías
-					</a>
-					<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
-						<a class="dropdown-item" href="lager.html">Tipo Lager</a>
-						<a class="dropdown-item" href="trigo.html">De Trigo</a>
-						<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
-						<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
-						<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
-					</div>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link" href="curiosidades.html">Curiosidades</a>
-				</li>
-				<li class="nav-item active">
-					<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
-				</li>
-			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
-			</form>
-		</div>
-	</nav>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="../index.html">Inicio <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Categorías
+						</a>
+						<div class="dropdown-menu active" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="todas_las_categ.html">Todas las Categorías</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="tipo_ale.html">Tipo Ale</a>
+							<a class="dropdown-item" href="lager.html">Tipo Lager</a>
+							<a class="dropdown-item" href="trigo.html">De Trigo</a>
+							<a class="dropdown-item" href="porter.html">Tipo Porter & Stout</a>
+							<a class="dropdown-item" href="lambic.html">Tipo Lambic</a>
+							<a class="dropdown-item" href="otras.html">Otras Especialidades</a>
+						</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="curiosidades.html">Curiosidades</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link disabled" href="encuesta.html">Encuesta</a>
+					</li>
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					<input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0 " type="submit">Buscar</button>
+				</form>
+			</div>
+		</nav>
+	</h5>
 	<button onclick="topFunction()"  class="icon icon-up-open" id="myBtn" title="Go to top"></button>
 
 	<!--AQUÍ FINALIZA LA BARRA DE NAVEGACIÓN-->
 
+	<div class="espacio">  </div>
+	
+	<div class="offset-1 col-10 col-lg-10 jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="espacio offset-lg-1 col-lg-10 col-12 ">
+				<h2 class="display-4 blogger" align="middle">ENCUESTA:</h2><hr class="linea">
+				<p class="display-4 blogger espacio letragrande" align="middle">A continuación, dejo una pequeña encuesta para hacerme llegar vuestra opinión sobre la página (se enviará a mi correo al enviarlo):</p>
+				<br>
+				<form action="mailto:srbams23@gmail.com" method="post" enctype="text/plain">
+
+<b>
+Nombre: <input type="text" name="nombre" size="25" maxlength="50"><br><br>
+Apellidos: <input type="text" name="apellidos" size="35" maxlength="100">
+<br><br>
+Correo electrónico: <input type="text" name="correo" size="40" maxlength="100" placeholder="ejemplo@mail.com">
+<br><br>
+Población: <input type="text" name="poblacion" size="15" maxlength="50">
+<br><br>
+Provincia: <input type="text" name="provincia" size="15" maxlength="50">
+<table width="100%" border="0" cellspacing="0" cellpadding="10">
+<tr>
+<td>Edad:
+<br>
+<input type="radio" name="edad" value="020"> 0-18
+<br>
+<input type="radio" name="edad" value="2040" checked> 18-30
+<br>
+<input type="radio" name="edad" value="4060"> Más de 30
+<td>¿Cómo conociste mi página?<br>
+<input type="checkbox" name="conocer">
+A través de un amigo.<br>
+<input type="checkbox" name="conocer">
+A través de un buscador.<br>
+<input type="checkbox" name="conocer">
+Navegando por la red.<br>
+<input type="checkbox" name="conocer">
+Otros</td>
+</tr>
+</table>
+Opinión sobre mi página web<br>
+<textarea cols="40" rows="5" name="opinion" placeholder="Escriba aquí su opinión..."></textarea>
+<br><br>
+Tiene alguna sugerencia...
+<br>
+<textarea cols="40" rows="5" name="sugerencias" placeholder="Escriba aquí sus sugerencias..."></textarea>
+<br><br>
+¿Con cuánta frecuencia bebes cerveza? (Señala la opción que
+más se acerque)<br>
+<select name="frecuencia" size="2">
+<option value="1"><i>Todos los días.</i>
+<option value="2">Varias veces en semana.
+<option value="3">Un par de veces en semana.
+<option value="4">Sólo los fines de semana.
+	<option value="5">Sólo algunos fines de semana.
+		<option value="6">Nunca (¿que haces en mi web?)
+</select>
+</b>
+<br>
+<br>
+<table width="50%" border="0" align="center" cellpadding="10" cellspacing="0">
+<tr>
+<td><div align="center">
+<input type="submit" value="Enviar formulario">
+</div></td>
+<td><div align="center">
+<input type="Reset" value="Borrar formulario">
+</div></td>
+</tr>
+</table>
+</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!--fin container-->
 
 
 
@@ -67,16 +146,18 @@
 
 
 <!-- AQUÍ EMPIEZA LA BARRA DE FINAL DE PÁGINA-->
-	<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
-		<a href="">aosdjasd</a>
-	</nav>
-	<!--fin sticky bottom-->
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="../js/bootstrap.js"></script>
-	<script type="../js/materialize.js"></script>
-	<script src="../js/js_mio.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-marron">
+	<a href="">aosdjasd</a>
+</nav>
+<!--fin sticky bottom-->
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="../js/bootstrap.js"></script>
+<script type="../js/materialize.js"></script>
+<script src="../js/js_mio.js"></script>
+<script src="../js/ekko-lightbox.js"></script>
+<script src="../js/ekko.js"></script>
 </body>
 </html> 

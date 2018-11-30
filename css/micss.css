@@ -2,8 +2,21 @@
 	background-color: #8b4513 !important;
 }
 
+
+  .letrapequeña{
+  font-size:10px; 
+}
+
+@media (max-width: 200px) and (max-heigth: 160px) {
 .letragrande{
-  font-size:30px; 
+  font-size:10px; 
+}
+}
+
+
+
+.letragrande{
+  font-size:20px; 
 }
 
 .borde{
@@ -14,6 +27,7 @@
 .espacio{
 	margin-top: 40px
 }
+
 .espder{
     margin-left: 60px;
 }
