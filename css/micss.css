@@ -13,10 +13,12 @@
 }
 }
 
-
+.letraXL{
+  font-size: 60px;
+}
 
 .letragrande{
-  font-size:20px; 
+  font-size: 20px; 
 }
 
 .borde{
