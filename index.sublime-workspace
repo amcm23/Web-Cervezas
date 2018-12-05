@@ -4,6 +4,30 @@
 		"selected_items":
 		[
 			[
+				"c",
+				"content\tAttr"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"letra",
+				"letraXL"
+			],
+			[
+				"p",
+				"p\tTag"
+			],
+			[
+				"es",
+				"espacio"
+			],
+			[
 				"cerve",
 				"cerveza_ale"
 			],
@@ -43,7 +67,52 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 5746,
+				"buffer_size": 7351,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/aleman.html",
+			"settings":
+			{
+				"buffer_size": 9934,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/belga.html",
+			"settings":
+			{
+				"buffer_size": 18222,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/britanico.html",
+			"settings":
+			{
+				"buffer_size": 17448,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/curiosidades.html",
+			"settings":
+			{
+				"buffer_size": 7902,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/encuesta.html",
+			"settings":
+			{
+				"buffer_size": 6955,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -52,7 +121,7 @@
 			"file": "html/lager.html",
 			"settings":
 			{
-				"buffer_size": 9221,
+				"buffer_size": 9850,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -61,16 +130,97 @@
 			"file": "html/lambic.html",
 			"settings":
 			{
-				"buffer_size": 7321,
+				"buffer_size": 8014,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "html/otras.html",
+			"file": "html/mas_otras.html",
 			"settings":
 			{
-				"buffer_size": 7358,
+				"buffer_size": 10963,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/otros_paises.html",
+			"settings":
+			{
+				"buffer_size": 10680,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/porter.html",
+			"settings":
+			{
+				"buffer_size": 8094,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tipo_ale.html",
+			"settings":
+			{
+				"buffer_size": 9326,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tipos_lager.html",
+			"settings":
+			{
+				"buffer_size": 18505,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tipos_lambic.html",
+			"settings":
+			{
+				"buffer_size": 13518,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tipos_porter.html",
+			"settings":
+			{
+				"buffer_size": 11900,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/tipos_trigo.html",
+			"settings":
+			{
+				"buffer_size": 11689,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/micss.css",
+			"settings":
+			{
+				"buffer_size": 5806,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "html/trigo.html",
+			"settings":
+			{
+				"buffer_size": 8816,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -115,25 +265,27 @@
 	"file_history":
 	[
 		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/todas_las_categ.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/otras.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/trigo.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/belga.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/britanico.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/curiosidades.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/encuesta.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/lager.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/lambic.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/mas_otras.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/otros_paises.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/porter.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipo_ale.html",
 		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_lager.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_lambic.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_porter.html",
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_trigo.html",
 		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/css/mdb.css",
 		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/css/micss.css",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/lager.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/trigo.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipo_ale.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_lambic.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/tipos_trigo.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/curiosidades.html",
 		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/index.html",
 		"/C/Users/Antonio/Desktop/MDB-Free_4.5.15/css/mdb.css",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/otros_paises.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/aleman.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/britanico.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/belga.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/porter.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/otras.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/lambic.html",
-		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/encuesta.html"
+		"/C/Users/Antonio/Desktop/1ºDAM/Lenguaje de Marcas/Web-Cervezas/html/aleman.html"
 	],
 	"find":
 	{
@@ -169,7 +321,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -178,15 +330,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5746,
+						"buffer_size": 7351,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1852,
-								1852
+								602,
+								602
 							]
 						],
 						"settings":
@@ -195,27 +347,27 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 441.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "html/lager.html",
+					"file": "html/aleman.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9221,
+						"buffer_size": 9934,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5924,
-								6047
+								15,
+								15
 							]
 						],
 						"settings":
@@ -224,56 +376,143 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1800.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "html/lambic.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7321,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7219,
-								7304
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2304.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "html/otras.html",
+					"buffer": 2,
+					"file": "html/belga.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7358,
+						"buffer_size": 18222,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6975,
-								6975
+								6375,
+								6435
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "html/britanico.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17448,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15651,
+								15651
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1752.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "html/curiosidades.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7902,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "html/encuesta.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6955,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5638,
+								5638
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2166.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "html/lager.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8267,
+								8267
 							]
 						],
 						"settings":
@@ -285,7 +524,327 @@
 						"translation.y": 2214.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "html/lambic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8014,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "html/mas_otras.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10963,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6295,
+								6295
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1566.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "html/otros_paises.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9114,
+								9114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "html/porter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8094,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								320,
+								320
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "html/tipo_ale.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9326,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7959,
+								7959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1674.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "html/tipos_lager.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10155,
+								10155
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2592.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "html/tipos_lambic.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13518,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12008,
+								12008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2646.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "html/tipos_porter.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11900,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9222,
+								9222
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2322.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "html/tipos_trigo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11689,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6096,
+								6096
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1818.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "css/micss.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								209,
+								209
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "html/trigo.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8816,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6293,
+								6293
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
