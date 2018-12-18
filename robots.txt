@@ -1,0 +1,4 @@
+User-agent:*
+Disallow:/imagenes
+Disallow:/js
+Disallow:/musica
