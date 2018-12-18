@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0">
+
+	<channel>
+		<title>El tiempo</title>
+		<link>https://www.tiempo.es/</link>
+		<description>Sindicación de contenidos de la web de el tiempo</description>
+		<language>es</language>
+
+		<item>
+			<title>El tiempo en Sevilla</title>
+			<link>https://www.tiempo.es/sevilla-sevilla-es0se0093.html</link>
+			<description>Ofrece el tiempo en la localidad de Sevilla</description>
+		</item>
+		<item>
+			<title>El tiempo para estas navidades en Sevilla</title>
+			<link>https://www.tiempo.es/especial/navidad/sevilla-es0se0093.html</link>
+			<description>Ofrece una previsión especial para el tiempo durante las navidades en la provincia de Sevilla</description>
+		</item>
+	</channel>
+</rss>

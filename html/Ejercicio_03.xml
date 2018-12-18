@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es-es">
+	<title type="text">El tiempo</title>
+	<updated>2018-12-17T14:44:47Z</updated>
+	<link href="https://www.tiempo.es/"/>
+	<id>https://www.tiempo.es/</id>
+
+	<entry>
+		<title>El tiempo en Sevilla</title>
+		<link href="https://www.tiempo.es/sevilla-sevilla-es0se0093.html"/>
+		<updated>2018-12-18T11:02:25Z</updated>
+		<id>https://www.tiempo.es/sevilla-sevilla-es0se0093.html</id>
+		<author>
+			<name>Antonio Cepeda</name>
+		</author>
+		<summary>Ofrece el tiempo en la localidad de Sevilla</summary>
+	</entry>
+
+	<entry>
+		<title>El tiempo para estas navidades en Sevilla</title>
+		<link rel="alternate" type="text/html" href="https://www.tiempo.es/especial/navidad/sevilla-es0se0093.html"/>
+		<updated>2018-12-18T11:31:02Z</updated>
+		<id>https://www.tiempo.es/especial/navidad/sevilla-es0se0093.html</id>
+		<author>
+			<name>Eltiempo.es</name>
+		</author>
+		<summary>Ofrece una previsión especial para el tiempo durante las navidades en la provincia de Sevilla</summary>
+	</entry>
+</feed>
